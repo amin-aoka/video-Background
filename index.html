@@ -8,12 +8,21 @@
     <title>Video Background</title>
   </head>
   <body>
+    <div class="preloader">
+      <img src="/preloader.gif" alt="preloader" />
+    </div>
     <div class="header">
       <h1>My Video</h1>
     </div>
     <video class="my-video" autoplay muted loop>
       <source src="/video.mp4" />
     </video>
+    <button class="switch-btn">
+      <span class="play">Play</span>
+      <span class="pause">Pause</span>
+      <span class="switch"></span>
+    </button>
+
     <script src="app.js"></script>
   </body>
 </html>

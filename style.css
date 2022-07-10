@@ -14,7 +14,6 @@ body{
     width:100vw;
 }
 
-
 .header{
     position: absolute;
     z-index:1;
@@ -27,3 +26,28 @@ body{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+
+.switch-btn{
+    position: absolute;
+    bottom:1rem;
+    left:1rem;
+    border:none;
+    border-radius:2px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.switch{
+    background-color: rgb(76, 76, 238);
+}
+
+.preloader{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    z-index:999;
+    background-color: white;
+    display:flex;
+}
+
